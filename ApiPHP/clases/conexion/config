@@ -1,0 +1,9 @@
+{
+    "conexion":{
+        "server" : "localhost",
+        "user" : "Desarrollo",
+        "password" : "123",
+        "database" : "pruebasyamcosmetics",
+        "port": "3308"
+    }
+}

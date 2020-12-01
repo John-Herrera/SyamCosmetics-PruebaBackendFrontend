@@ -1,0 +1,23 @@
+.totales{
+    text-align: right;
+}
+
+.pointer-basura{
+    font-size: 27px  !important;
+    color: red  !important;
+    cursor: pointer  !important;
+}
+.titulo{
+    font-size: 40px;
+    color: white;
+}
+.wrapper {
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    justify-content: center;
+    width: 100%;
+    min-height: 100%;
+    padding: 20px;
+  }

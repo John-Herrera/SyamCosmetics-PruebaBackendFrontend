@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">    
+    <link rel="stylesheet" href="assets/styles.css">
+    <title>Proyecto</title>
+</head>
+<body>
+    <div class="container wrapper pt-5 text-center">
+        <div class="titulo mb-4 w-100 bg-primary p-3 ">
+            <button class="float-left btn btn-info"  onclick="$(location).attr('href', 'index.html'); "> Volver a inicio </button>
+           Total compras
+        </div>
+
+        <table id="tablePedidos" class="table display table-striped table-bordered table-hover table-sm">
+        <thead class="thead-dark">
+            <tr>
+                <th>Orden</th>
+                <th class="totales">Subtotal</th>
+                <th class="totales"> Total IVA</th>
+                <th class="totales">Total</th>
+            </tr>
+        </thead>
+        <tbody id="pedidos">
+            
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4" class="totales" ><strong>Total Pedidos:&nbsp;&nbsp;&nbsp; <span id="TOTALP"></span></strong></td>
+            </tr>
+        </tfoot>
+    </table>
+    </div>
+    
+    <script
+    src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>  
+    <script src="assets/jqueryh2.js"></script>
+    
+</body>
+</html>
