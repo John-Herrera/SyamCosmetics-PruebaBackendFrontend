@@ -98,7 +98,7 @@ $('#btnAgregar').on('click', function () {
 
 //evento que finaliza compra
 $('#FinalizarCompra').on('click', function () {
-  let r = confirm("Deseas finalizar la compra");
+  let r = confirm("Deseas finalizar la compra?");
     if (r == true) {
       FinalizarPedido();
     } 
@@ -224,7 +224,7 @@ const CrearPedido = () => {
 }
 
 const CrearDetallePedido = () => {
-  let url = "piPHP/creardetallepedido";
+  let url = "ApiPHP/creardetallepedido";
   let data = Carrito;
   data = JSON.stringify(data);
   var formData = new FormData();
